@@ -2,15 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
-function theForm () {
-  return (
-    <form action="http://zasasa.com/en/download_instagram_stories.php" method="POST">
-        <input type="text" id="url" name="url" size="80" value="nadiaannuar" /><br/ >
-        <br /><br />
-        <input type="submit" value="Download"></input>
-      </form>
-  );
-}
+import theForm from './Components/theForm';
 
 function Index () {
   return <h2>Home</h2>;
