@@ -1,6 +1,6 @@
 import React from 'react';
 
-class theForm extends React.Component {
+class TheForm extends React.Component {
     render() {
         return (
             <form action="http://zasasa.com/en/download_instagram_stories.php" method="POST">
@@ -12,4 +12,4 @@ class theForm extends React.Component {
     }
 }
 
-export default theForm;
+export default TheForm;

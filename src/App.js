@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 import PasswordField from './Components/PasswordField';
-import theForm from './Components/theForm';
+import TheForm from './Components/TheForm';
 
 function Index () {
   return <PasswordField />;
@@ -27,7 +27,7 @@ function App() {
         </nav>
 
         <Route path="/" exact component={Index} />
-        <Route path="/na/" component={theForm} />
+        <Route path="/na/" component={TheForm} />
       </div>
     </Router>
   );
