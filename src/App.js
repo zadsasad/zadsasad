@@ -2,10 +2,11 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
+import PasswordField from './Components/PasswordField';
 import theForm from './Components/theForm';
 
 function Index () {
-  return <h2>Home</h2>;
+  return <PasswordField />;
 }
 
 function App() {
